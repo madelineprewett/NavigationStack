@@ -9,18 +9,47 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationStack {
+            VStack {
+                Text("This is the root view 🌲")
+                    .font(.title3)
+                //                NavigationLink(destination: Text("You have arrived! 🏖️")) {
+                //                    Text("Click for vacation transport ✈️")
+                //                }//click for transport
+                
+                //                NavigationLink(destination: Text("You have arrived! 🌕")) {
+                //                    Text("Click for moon transport 🚀")
+                //                }
+                
+                NavigationLink(destination: secondview()) {
+                    Text("Take me to a new view!")
+                }
+            }//VStack
+            .toolbar {
+                NavigationLink(destination: secondview()) {
+                    Text("About")
+                    
+                    NavigationLink(destination: thirdview()) {
+                        Text("More info")
+                    }
+                }
+                .navigationTitle("Home")
+                .navigationBarTitleDisplayMode(.inline)
+                // .navigationBarHidden(true)
+                
+                
+                
+            }//NavigationStack
+            
+            
+            
         }
-        .padding()
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

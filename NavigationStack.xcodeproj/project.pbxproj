@@ -11,6 +11,8 @@
 		BDF1883E2A61ADA500E3345B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1883D2A61ADA500E3345B /* ContentView.swift */; };
 		BDF188402A61ADA600E3345B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF1883F2A61ADA600E3345B /* Assets.xcassets */; };
 		BDF188432A61ADA600E3345B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF188422A61ADA600E3345B /* Preview Assets.xcassets */; };
+		BDF1884A2A61B3AC00E3345B /* secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF188492A61B3AC00E3345B /* secondview.swift */; };
+		BDF1884C2A61B93B00E3345B /* thirdview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1884B2A61B93B00E3345B /* thirdview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BDF1883D2A61ADA500E3345B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDF1883F2A61ADA600E3345B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF188422A61ADA600E3345B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDF188492A61B3AC00E3345B /* secondview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondview.swift; sourceTree = "<group>"; };
+		BDF1884B2A61B93B00E3345B /* thirdview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		BDF1882F2A61ADA500E3345B = {
 			isa = PBXGroup;
 			children = (
+				BDF188492A61B3AC00E3345B /* secondview.swift */,
+				BDF1884B2A61B93B00E3345B /* thirdview.swift */,
 				BDF1883A2A61ADA500E3345B /* NavigationStack */,
 				BDF188392A61ADA500E3345B /* Products */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF1884C2A61B93B00E3345B /* thirdview.swift in Sources */,
 				BDF1883E2A61ADA500E3345B /* ContentView.swift in Sources */,
 				BDF1883C2A61ADA500E3345B /* NavigationStackApp.swift in Sources */,
+				BDF1884A2A61B3AC00E3345B /* secondview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
